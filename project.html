@@ -190,60 +190,78 @@
 
         <form action="Mail">
 
-            <label for="first-name">Name:</label>
-            <br>
-            <input type="text" id="first-name" name="first-name">
-            <br>
-            <br>
-
-            <label for="email">Email:</label>
-            <br>
-            <input type="text" id="email" name="email">
-            <br>
-            <br>
-
-            <label for="phone">Phone:</label>
-            <br>
-            <input type="tel" id="phone" name="phone">
-            <br>
-            <br>
-            
-            <p>Contact me via:</p>
-            <input type="radio" id="email" name="contact" value="email">
-            <label for="email">Email</label>
-            <input type="radio" id="phone" name="contact" value="phone">
-            <label for="phone">Phone</label>
-            <input type="radio" id="telegram" name="contact" value="telegram">
-            <label for="telegram">Telegram</label>
-            <br>
-            <br>
-           
-            <label for="topic">Topic:</label> <br>
-            <select name="topic" id="topic">
-            <option value="story">Post my story</option>
-            <option value="go">Where to go</option>
-            <option value="wonders">7 wonders of a world</option>
-            <option value="asap">Questions</option>
-            </select>
-            <br>  
-
-            <br>
-            <label for="message">Message:</label>
-            <br>
-            <textarea name="message" id="message" cols="50" rows="5"> 
-            </textarea>
-            <br>
-
-            <br>
-            <label for="human">I'm a human</label>
-            <input type="checkbox" id="human" name="human">
-              
-            <input type="submit" value="Send">
-           
+            <div class="send-my">
+                
+                <div class="begin-ques"> 
+                    <div class="begin-quest-1">                    
+                        <label for="first-name">Name:</label>
+                        <br>
+                        <input type="text" id="first-name" name="first-name">
+                        <br>                    
+                    </div>
+                    
+                    <div class="begin-quest-2">                    
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="text" id="email" name="email">
+                        <br>                                       
+                    </div>
+                    
+                    <div class="begin-quest-3">
+                        <label for="phone">Phone:</label>
+                        <br>
+                        <input type="tel" id="phone" name="phone">
+                        <br>                    
+                    </div>
+                    
+                </div>
+                
+                <div class="quest">                    
+                    <p>Contact me via:</p>
+                    <input type="radio" id="email" name="contact" value="email">
+                    <label for="email">Email</label>
+                    <input type="radio" id="phone" name="contact" value="phone">
+                    <label for="phone">Phone</label>
+                    <input type="radio" id="telegram" name="contact" value="telegram">
+                    <label for="telegram">Telegram</label>
+                    <br>
+                    <br>
+                    
+                    <label for="topic">Topic:</label> <br>
+                    <select name="topic" id="topic">
+                        <option value="story">Post my story</option>
+                        <option value="go">Where to go</option>
+                        <option value="wonders">7 wonders of a world</option>
+                        <option value="asap">Questions</option>
+                    </select>
+                    <br>  
+                    
+                    <br>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea name="message" id="message" cols="50" rows="5"> 
+                    </textarea>
+                    <br>
+                </div>
+                
+                <div class="sending">
+                    
+                    <div class="sending-01">
+                        <label for="human">I'm a human</label>
+                        <input type="checkbox" id="human" name="human">
+                    </div>    
+                    
+                    <div class="sending-02">
+                        <input type="submit" value="Send">
+                    </div>                      
+                    
+                </div>
+            </div>
+                
         </form>
-
+            
     </section>
-
+        
 
     
 

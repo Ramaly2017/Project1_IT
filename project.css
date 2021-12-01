@@ -123,6 +123,18 @@ aside {
 
 .tomail {
     text-align: center;
+    margin-top: 20px;
+}
+
+.begin-quest-1, .begin-quest-2, .begin-quest-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sending {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
 }
 
 footer {
@@ -187,10 +199,6 @@ footer {
     }
   
   
-  
-  
-  
-  
     .no1 {
         display: flex;
         flex-direction: row-reverse;
@@ -249,24 +257,6 @@ footer {
     .gallery-01, .gallery-02 {
         flex-basis: 40%; 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
     .featall {
         display: flex;
@@ -292,22 +282,19 @@ footer {
 
     .sign5, .sign6 {
         border-bottom: none;
-    }
-
-    
+    }  
 
     .symbol {
         margin-top: 30px;
     }
-
-
-
-
-
-
-
-
-
+    .begin-ques {
+        display: flex;  
+              
+    }
+    .begin-quest-1, .begin-quest-1, .begin-quest-3 {
+        flex-basis: 20%;
+        margin-right: 10px;
+    }
     
 }
     
