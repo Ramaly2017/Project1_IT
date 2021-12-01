@@ -7,12 +7,34 @@ header {
 }
 
 .firm {
-    width: 300px;    
+    /* width: 300px;     */
     line-height: 100px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    margin-left: 30px;
 }
+
+header {
+    display: flex;    
+    justify-content: space-between;
+    flex-direction: row ;
+}
+.firm {
+    flex-basis: 30%;
+}
+
+.lists {
+    display: flex;
+    line-height: 100px;
+    text-align: center;    
+}
+
+.lists {
+    display: none;  
+}
+
+
 
 .menu-icon {
     justify-content: center;
@@ -20,7 +42,8 @@ header {
     display: flex;
     height: 98px;
     width: 200px;
-    }
+    margin-left: 80px;
+}
 
 .div0 {
     width: 35px;
@@ -146,6 +169,28 @@ footer {
 
 
 @media (min-width: 600px) {
+   header {
+       justify-content: flex-start;
+   }
+   
+    .menu-icon {
+        display: none;
+    }
+
+    .lists {
+        display: flex;
+    }
+
+    .chapters {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+  
+  
+  
+  
+  
+  
     .no1 {
         display: flex;
         flex-direction: row-reverse;
@@ -197,7 +242,7 @@ footer {
     .gallery1 {
         flex-basis: 100%;        
     }
-    
+
     .gallery-02 {
         display: block;
     }
