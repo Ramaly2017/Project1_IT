@@ -34,8 +34,13 @@ header {
     justify-content: center;
 }
 
-.img1, .img2, .img3, .img4 {
+.img1, .img2, .img3, .img4, .img5, .img6  {
     width: 100%;
+}
+
+.gallery-02, .gallery-03 {
+    display: none;
+
 }
 
 .first-block, .second-block, .third-block {
@@ -147,7 +152,6 @@ footer {
         flex-wrap: wrap;
     }
 
-
     .picture1 {
         flex-basis: 43%;
     }
@@ -185,6 +189,39 @@ footer {
         margin-top: 0;
     }
 
+    .no4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .gallery1 {
+        flex-basis: 100%;        
+    }
+    
+    .gallery-02 {
+        display: block;
+    }
+    .gallery-01, .gallery-02 {
+        flex-basis: 40%; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     .featall {
         display: flex;
@@ -213,7 +250,7 @@ footer {
     }
 
     
-    
+
     .symbol {
         margin-top: 30px;
     }
