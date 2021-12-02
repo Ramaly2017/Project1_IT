@@ -10,18 +10,18 @@ header {
     /* width: 300px;     */
     line-height: 100px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.1em;
     font-weight: bold;
     margin-left: 30px;
+}
+.firm {
+    flex-basis: 38%;
 }
 
 header {
     display: flex;    
     justify-content: space-between;
     flex-direction: row ;
-}
-.firm {
-    flex-basis: 30%;
 }
 
 .lists {
@@ -34,7 +34,9 @@ header {
     display: none;  
 }
 
-
+.icons-top {
+    display: none;
+}
 
 .menu-icon {
     justify-content: center;
@@ -63,11 +65,10 @@ header {
 
 .gallery-02, .gallery-03 {
     display: none;
-
 }
 
 .first-block, .second-block, .third-block {
-    margin: 20px 35px 30px 35px;
+    margin: 20px 25px 30px 35px;
     text-align: justify;
 }
 
@@ -137,6 +138,10 @@ aside {
     margin-right: 20px;
 }
 
+.sending-02 {
+    margin-right: 10px;
+}
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -185,7 +190,16 @@ footer {
        justify-content: flex-start;
    }
    
+    .firm {
+        margin-left: 0;
+        text-align: end;
+        padding-right: 10px;
+    }
     .menu-icon {
+        display: none;
+    }
+
+    .icons-top {
         display: none;
     }
 
@@ -196,8 +210,7 @@ footer {
     .chapters {
         margin-left: 15px;
         margin-right: 15px;
-    }
-  
+    }  
   
     .no1 {
         display: flex;
@@ -283,18 +296,190 @@ footer {
     .sign5, .sign6 {
         border-bottom: none;
     }  
-
+    
     .symbol {
         margin-top: 30px;
     }
+    
     .begin-ques {
         display: flex;  
-              
+        justify-content: space-around;
+        
     }
-    .begin-quest-1, .begin-quest-1, .begin-quest-3 {
+    .begin-quest-1, .begin-quest-2 {
         flex-basis: 20%;
         margin-right: 10px;
     }
+
+    .begin-quest-3 {
+        flex-basis: 20%;
+        margin-right: 60px;
+    }
     
 }
+
+
+
+@media (min-width: 850px) {
+    body {
+        font-size: 20px;
+    }
     
+    /* .icons-top {
+        display: block;
+        
+    }
+         */
+    .icons-top {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    /* flex-basis: 30%; */
+    justify-content: center;
+    margin-top: 13px;
+    }
+
+    .circle-top {
+        border: none;
+    }
+
+    .socials-top {
+        height: 25px;
+        /* margin: 3px; */
+    }
+    /* header {
+        justify-content: flex-start;
+    } */
+    
+    /* .menu-icon {
+        display: none;
+    } */
+    
+
+
+    .lists {
+        display: flex;
+    }
+    
+    .chapters {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .gallery-03 {
+        display: block;
+    }
+    
+    .gallery-01, .gallery-02, .gallery-03  {
+        flex-basis: 25%; 
+        
+    }
+    
+    /* .featall {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }  */
+
+    .feat1 {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .feat {
+        flex-basis: 30%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .sign2 {
+        border-right: 2px solid rgb(156, 156, 156);
+    }
+    .sign3 {
+        border-right: none;
+    }
+    .sign4 {
+        border-bottom: none;
+        border-right: 2px solid rgb(156, 156, 156);
+    }
+    .begin-ques {
+        justify-content: space-around;
+    }
+    .begin-quest-3 {
+        margin-right: 40px;
+    }
+
+    .no1 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+    .picture1 {
+        flex-basis: 45%;
+    }
+    .first-block {
+        flex-basis: 45%;
+        margin-top: 0;
+    }
+
+    .no2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+    }
+     
+    .picture2 {
+        flex-basis: 30%;
+    }
+    .second-block {
+        flex-basis: 60%;
+        margin-top: 0;
+    }
+
+    .no3 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    .picture3 {
+        flex-basis: 30%;
+    }
+    .third-block {
+        flex-basis: 60%;
+        margin-top: 0;
+    }
+
+
+
+
+
+    /* .sign1, .sign3, .sign5 {
+        border-right: 2px solid rgb(156, 156, 156);
+    }
+
+    .sign5, .sign6 {
+        border-bottom: none;
+    }   */
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+@media (min-width: 1600px) {
+    body {
+        font-size: 40px;
+    }
+
+}
