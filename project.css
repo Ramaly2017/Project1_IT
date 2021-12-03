@@ -6,8 +6,7 @@ header {
     margin: 5px;      
 }
 
-.firm {
-    /* width: 300px;     */
+.firm {   
     line-height: 100px;
     text-align: center;
     font-size: 1.1em;
@@ -184,7 +183,6 @@ footer {
     margin-bottom: 30px;
 }
 
-
 @media (min-width: 600px) {
    header {
        justify-content: flex-start;
@@ -314,27 +312,17 @@ footer {
     .begin-quest-3 {
         flex-basis: 20%;
         margin-right: 60px;
-    }
-    
+    }    
 }
-
-
 
 @media (min-width: 850px) {
     body {
         font-size: 20px;
     }
     
-    /* .icons-top {
-        display: block;
-        
-    }
-         */
     .icons-top {
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
-    /* flex-basis: 30%; */
+    display: flex;    
+    flex-direction: row;    
     justify-content: center;
     margin-top: 13px;
     }
@@ -344,19 +332,9 @@ footer {
     }
 
     .socials-top {
-        height: 25px;
-        /* margin: 3px; */
+        height: 25px;        
     }
-    /* header {
-        justify-content: flex-start;
-    } */
-    
-    /* .menu-icon {
-        display: none;
-    } */
-    
-
-
+   
     .lists {
         display: flex;
     }
@@ -375,12 +353,6 @@ footer {
         
     }
     
-    /* .featall {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }  */
-
     .feat1 {
         flex-basis: 100%;
         text-align: center;
@@ -453,26 +425,31 @@ footer {
         margin-top: 0;
     }
 
-
-
-
-
-    /* .sign1, .sign3, .sign5 {
-        border-right: 2px solid rgb(156, 156, 156);
+   .firm {
+        flex-basis: 20%;
+        margin-left: 20px;
     }
 
-    .sign5, .sign6 {
-        border-bottom: none;
-    }   */
+   .lists {
+    flex-basis:51%;
+    }
 
-    
+    header {
+        justify-content: flex-start;
+    }
 
-    
-    
+    .icons-top {
+        align-items: center;
+        margin-top: 0;
+        flex-basis: 30%;
+        /* justify-self: self-end; */
+    }
+    .circle-top {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-
-
-
+}
 
 
 
@@ -481,5 +458,4 @@ footer {
     body {
         font-size: 40px;
     }
-
 }
