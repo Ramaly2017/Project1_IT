@@ -66,6 +66,24 @@ header {
     display: none;
 }
 
+.gallery-01 {
+    position:relative;    
+}
+
+.text-for-picture {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;   
+    padding:20px;
+    display:none;
+    color: white;
+}
+
+.gallery-01:hover .text-for-picture {
+    display:block;
+}
+
 .first-block, .second-block, .third-block {
     margin: 20px 25px 30px 35px;
     text-align: justify;
@@ -268,6 +286,24 @@ footer {
     .gallery-01, .gallery-02 {
         flex-basis: 40%; 
     }
+
+
+    .gallery-02  {
+        position:relative;    
+    }
+    .text-for-picture-2  {
+        position:absolute;
+        left:0;
+        bottom:0;
+        right:0;   
+        padding:20px;
+        display:none;
+        color: white;
+    }
+    
+    .gallery-02:hover .text-for-picture-02 {
+        display:block;
+    }
     
     .featall {
         display: flex;
@@ -317,7 +353,7 @@ footer {
 
 @media (min-width: 850px) {
     body {
-        font-size: 20px;
+        font-size: 17px;
     }
     
     .icons-top {
@@ -448,11 +484,7 @@ footer {
         margin-left: 5px;
         margin-right: 5px;
     }
-
 }
-
-
-
 
 @media (min-width: 1600px) {
     body {
